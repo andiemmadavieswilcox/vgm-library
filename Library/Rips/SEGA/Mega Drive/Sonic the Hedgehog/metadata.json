@@ -1,0 +1,343 @@
+{
+    "$schema": "https://www.json-schema.org/draft/2020-12/schema",
+    "game": {
+        "name": "Sonic the Hedgehog",
+        "commonlyReferredToAs": "Sonic 1",
+        "franchise": "Sonic the Hedgehog",
+        "series": [
+            "Mainline",
+            "16-bit"
+        ],
+        "publishers": ["SEGA"],
+        "developers": ["Sonic Team"],
+        "releases": [{
+            "platform": {
+                "manufacturer": "SEGA",
+                "name": "Mega Drive"
+            },
+            "region": "Europe",
+            "date": {
+                "year": 1991,
+                "month": "July"
+            },
+            "boxType": "Standard",
+            "cartridgeShape": "Standard"
+        }]
+    },
+    "release": {
+        "category": "Rip",
+        "host": "Project2612",
+        "url": "https://project2612.org/details.php?id=36",
+        "publishedDate": {
+            "year": 2005,
+            "month": "October",
+            "day": 9
+        },
+        "lastUpdated": {
+            "year": 2014,
+            "month": "August",
+            "day": 26
+        },
+        "revision": "1.11",
+        "isComplete": true,
+        "includes": {
+            "music": true,
+            "jingles": true,
+            "soundEffects": false
+        },
+        "rippers": [{ "aliases": ["DJ Squarewave"] }],
+        "taggers": [
+            { "aliases": ["DJ Squarewave"] },
+            { "aliases": ["AmateurPanda92"], "realName": "Andi Emma Davies" }
+        ],
+        "format": {
+            "extension": ".vgz",
+            "name": "Video Game Music (VGM)",
+            "compression": "Gzipped (lossless)",
+            "emulatedChips": [
+                {
+                    "manufacturer": "Yamaha",
+                    "name": "YM2612"
+                },
+                {
+                    "manufacturer": "SEGA",
+                    "name": "SN76496",
+                    "alsoKnownAs": "SEGA PSG",
+                    "variantOf": {
+                        "manufacturer": "Texas Instruments",
+                        "name": "SN76489"
+                    }
+                }
+            ]
+        },
+        "trackOrderingConvention": { "name": "In-game occurrence", "hasExceptions": true },
+        "trackNamingSources": ["Manual", "In-game appearance"]
+    },
+    "artwork": {
+        "isComplete": true,
+        "files": [
+            {
+                "type": "Box Front",
+                "filename": "artwork/front.jpg",
+                "source": "Scan",
+                "quality": "Very Good"
+            },
+            {
+                "type": "Box Rear",
+                "filename": "artwork/rear.jpg",
+                "source": "Scan",
+                "quality": "Very Good"
+            },
+            {
+                "type": "Box Spine",
+                "filename": "artwork/spine.jpg",
+                "source": "Scan",
+                "quality": "Very Good"
+            },
+            {
+                "type": "Manual Cover",
+                "filename": "artwork/manual.jpg",
+                "source": "Scan",
+                "quality": "Good"
+            },
+            {
+                "type": "Cartridge Label",
+                "filename": "artwork/cartridge.png",
+                "source": "Recreation",
+                "from": "https://www.deviantart.com/sameythehedgie/art/Sonic-1-EU-Cartridge-Label-Recreation-851004779",
+                "quality": "Excellent"
+            },
+            {
+                "type": "Square Fallback",
+                "filename": "artwork/square.jpg",
+                "source": "Scan",
+                "quality": "Very Good"
+            }
+        ]
+    },
+    "tracks": [
+        {
+            "track": 1,
+            "filename": "01 Title Screen.vgz",
+            "type": "Title Screen",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 2,
+            "filename": "02 Green Hill Zone.vgz",
+            "type": "Level",
+            "title": "Green Hill Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 3,
+            "filename": "03 Invincible.vgz",
+            "type": "Jingle",
+            "subtype": "Invincibility",
+            "title": "Invincible",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 4,
+            "filename": "04 One-up.vgz",
+            "type": "Jingle",
+            "subtype": "Extra Life",
+            "title": "One-up",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 5,
+            "filename": "05 Act Clear.vgz",
+            "type": "Jingle",
+            "subtype": "Level Clear",
+            "title": "Act Clear",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 6,
+            "filename": "06 Special Stage.vgz",
+            "type": "Level",
+            "subtype": "Bonus",
+            "title": "Special Stage",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 7,
+            "filename": "07 Chaos Emerald.vgz",
+            "type": "Jingle",
+            "subtype": "Item Get",
+            "title": "Chaos Emerald",
+            "composers": [{ "name": "Yukifumi Makino", "creditedAs": "Macky" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 8,
+            "filename": "08 Dr. Robotnik.vgz",
+            "type": "Boss",
+            "title": "Dr. Robotnik",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 9,
+            "filename": "09 Marble Zone.vgz",
+            "type": "Level",
+            "title": "Marble Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 10,
+            "filename": "10 Spring Yard Zone.vgz",
+            "type": "Level",
+            "title": "Spring Yard Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 11,
+            "filename": "11 Labyrinth Zone.vgz",
+            "type": "Level",
+            "title": "Labyrinth Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 12,
+            "filename": "12 Drowning.vgz",
+            "type": "Jingle",
+            "subtype": "Drowning",
+            "composers": [{ "name": "Yukifumi Makino", "creditedAs": "Macky" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 13,
+            "filename": "13 Star Light Zone.vgz",
+            "type": "Level",
+            "title": "Star Light Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 14,
+            "filename": "14 Scrap Brain Zone.vgz",
+            "type": "Level",
+            "title": "Scrap Brain Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 15,
+            "filename": "15 Final Zone.vgz",
+            "type": "Boss",
+            "subtype": "Final",
+            "title": "Star Light Zone",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ],
+            "loops": true
+        },
+        {
+            "track": 16,
+            "filename": "16 Ending.vgz",
+            "type": "Cutscene",
+            "title": "Ending",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 17,
+            "filename": "17 Staff Roll.vgz",
+            "type": "Staff Roll",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 18,
+            "filename": "18 Continue.vgz",
+            "type": "Jingle",
+            "subtype": "Continue?",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        },
+        {
+            "track": 19,
+            "filename": "19 Game Over.vgz",
+            "type": "Jingle",
+            "subtype": "Game Over",
+            "composers": [{ "name": "Masato Nakamura" }],
+            "arrangers": [
+                { "name": "Hiroshi Kubota", "creditedAs": "Jinya" },
+                { "name": "Yukifumi Makino", "creditedAs": "Macky" }
+            ]
+        }
+    ]
+}
